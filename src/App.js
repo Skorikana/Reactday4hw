@@ -5,8 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Details from "./pages/Details";
 import Nav from "./components/nav";
-
-
+import Dashboard from "./pages/Dashboard";
 export default function App () {
   // We will use the Route component to specify each route
   return (
@@ -16,8 +15,8 @@ export default function App () {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
-      <Route path="/stocks/:symbol" element={<Details/>}/> 
-      <Route path="/stocks" element={<Home/>}/>    
+      <Route path="/Dashboard" element={<Dashboard/>}/> 
+      <Route path="/stocks/:symbol" element={<Details/>}/>  
     </Routes>
     </div>
   );
