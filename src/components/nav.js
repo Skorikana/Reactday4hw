@@ -11,7 +11,7 @@ export default function Nav (){
         <div>ABOUT</div>
       </Link>
       <Link to="/Dashboard">
-          <div>DASHBOARD</div>
+          <div>STOCKS</div>
         </Link>
           </div>
          
